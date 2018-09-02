@@ -1,0 +1,326 @@
+Institute:	C.U.H.K.
+Instrument:	AXIS-HS
+Operator:	kratos (C.U.H.K. VISION User)
+Dataset:	~/GaAs/GaAs-standard
+Object name:	As 3d-p-stand / 1
+Date acquired:	Fri Jun  3 21:28:59 1994 
+
+Technique                 = XPS
+Scan type                 = regular
+Abscissa start            = 1208.6
+Abscissa increment        = 0.05
+Abscissa label            = Kinetic Energy
+Abscissa units            = eV
+Collection time           = 0.3 seconds
+Ordinate label            = Intensity
+Ordinate units            = Counts
+# ordinate values         = 121
+Comment                   = S-passivated-p-GaAs-RT-standard
+Cumulative etch time      = 0 seconds
+Excitation name           = Magnesium
+Excitation energy         = 1253.6 eV
+Object name               = As 3d-p-stand
+Gun current               = 0.01 amps
+Gun voltage               = 15000 volts
+Analyser mode             = FAT
+Pass energy               = 20 eV
+Abscissa end              = 1214.6
+Maximum sweeps            = 60
+Magnification             = MAGNETIC
+FAT code                  = 3
+Mag code                  = 2
+Excitation code           = 4
+Filament                  = no_preference
+Detector mask             = 7
+Regions                   = {
+    {
+        region_id                 = 1
+        region_name               = XPS Sp As 3d
+        technique                 = XPS
+        start                     = 39.27
+        end                       = 44.5
+        qfactor                   = 0.53
+        amass                     = 74.9
+        bg_type                   = SHIRLEY
+        max_iters                 = 50
+        half_life                 = 0
+        bg_average                = 1
+        no_comps                  = 4
+    }
+}
+Components                = {
+    {
+        comp_name                 = XPS Sp As 3d 1
+        model_name                = GL(70)
+        comp_id                   = 1
+        region_id                 = 1
+        model                     = 0
+        qfactor                   = 0.53
+        amass                     = 74.9
+        raw_area                  = 55028.7
+        arg                       =         {
+            constraint_type           = CONSTR_RANGE
+            minimum                   = 39.25
+            maximum                   = 45
+            current                   = 41.3548
+            link_param                = 0
+            link                      = 0
+        }
+        {
+            constraint_type           = CONSTR_RANGE
+            minimum                   = 0
+            maximum                   = 100
+            current                   = 84.1974
+            link_param                = 0
+            link                      = 0
+        }
+        {
+            constraint_type           = CONSTR_RANGE
+            minimum                   = 0.115
+            maximum                   = 2.875
+            current                   = 0.970693
+            link_param                = 0
+            link                      = 0
+        }
+    }
+    {
+        comp_name                 = XPS Sp As 3d 2
+        model_name                = GL(70)
+        comp_id                   = 2
+        region_id                 = 1
+        model                     = 0
+        qfactor                   = 0.53
+        amass                     = 74.9
+        raw_area                  = 36695.8
+        arg                       =         {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 39.25
+            maximum                   = 45
+            current                   = 42.0548
+            link_param                = 0.7
+            link                      = 1
+        }
+        {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 0
+            maximum                   = 100
+            current                   = 56.1316
+            link_param                = 0.666667
+            link                      = 1
+        }
+        {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 0.115
+            maximum                   = 2.875
+            current                   = 0.970693
+            link_param                = 1
+            link                      = 1
+        }
+    }
+    {
+        comp_name                 = XPS Sp As 3d 3
+        model_name                = GL(50)
+        comp_id                   = 3
+        region_id                 = 1
+        model                     = 0
+        qfactor                   = 0.53
+        amass                     = 74.9
+        raw_area                  = 7327.64
+        arg                       =         {
+            constraint_type           = CONSTR_RANGE
+            minimum                   = 39.25
+            maximum                   = 44.5
+            current                   = 42.4152
+            link_param                = 0
+            link                      = 0
+        }
+        {
+            constraint_type           = CONSTR_RANGE
+            minimum                   = 0
+            maximum                   = 100
+            current                   = 11.6706
+            link_param                = 0
+            link                      = 0
+        }
+        {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 0.105
+            maximum                   = 2.625
+            current                   = 0.970693
+            link_param                = 1
+            link                      = 1
+        }
+    }
+    {
+        comp_name                 = XPS Sp As 3d 4
+        model_name                = GL(50)
+        comp_id                   = 4
+        region_id                 = 1
+        model                     = 0
+        qfactor                   = 0.53
+        amass                     = 74.9
+        raw_area                  = 4873.18
+        arg                       =         {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 39.25
+            maximum                   = 44.5
+            current                   = 43.1152
+            link_param                = 0.7
+            link                      = 3
+        }
+        {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 0
+            maximum                   = 100
+            current                   = 7.78037
+            link_param                = 0.666667
+            link                      = 3
+        }
+        {
+            constraint_type           = CONSTR_LINK
+            minimum                   = 0.105
+            maximum                   = 2.625
+            current                   = 0.970693
+            link_param                = 1
+            link                      = 3
+        }
+    }
+}
+Full scale deflection     = 1.11
+Scans Completed           = 60
+Acquired On               = CUHK (SAC)
+Transmission Function     = {
+    {
+        ke                        = 0
+        trans                     = 1
+    }
+    {
+        ke                        = 5000
+        trans                     = 1
+    }
+}
+Operator                  = kratos (C.U.H.K. VISION User)
+Date Acquired             = Fri Jun  3 21:28:59 1994 
+Kinetic Energy Intensity  
+          (eV)  (Counts)  
+      1208.600  15579.00 
+      1208.650  15744.00 
+      1208.700  15852.00 
+      1208.750  15804.00 
+      1208.800  15841.00 
+      1208.850  15935.00 
+      1208.900  15851.00 
+      1208.950  15861.00 
+      1209.000  15824.00 
+      1209.050  15995.00 
+      1209.100  15884.00 
+      1209.150  15732.00 
+      1209.200  16025.00 
+      1209.250  15940.00 
+      1209.300  16295.00 
+      1209.350  16381.00 
+      1209.400  16132.00 
+      1209.450  16228.00 
+      1209.500  16385.00 
+      1209.550  16543.00 
+      1209.600  16763.00 
+      1209.650  16941.00 
+      1209.700  17201.00 
+      1209.750  17483.00 
+      1209.800  17595.00 
+      1209.850  17778.00 
+      1209.900  17938.00 
+      1209.950  18433.00 
+      1210.000  18972.00 
+      1210.050  19341.00 
+      1210.100  19933.00 
+      1210.150  20186.00 
+      1210.200  20847.00 
+      1210.250  21509.00 
+      1210.300  22226.00 
+      1210.350  23101.00 
+      1210.400  24070.00 
+      1210.450  25060.00 
+      1210.500  26002.00 
+      1210.550  27193.00 
+      1210.600  28278.00 
+      1210.650  29193.00 
+      1210.700  30280.00 
+      1210.750  31695.00 
+      1210.800  33411.00 
+      1210.850  34991.00 
+      1210.900  37048.00 
+      1210.950  38169.00 
+      1211.000  40107.00 
+      1211.050  42497.00 
+      1211.100  44734.00 
+      1211.150  47462.00 
+      1211.200  50237.00 
+      1211.250  53051.00 
+      1211.300  55615.00 
+      1211.350  58126.00 
+      1211.400  61004.00 
+      1211.450  63533.00 
+      1211.500  65561.00 
+      1211.550  67216.00 
+      1211.600  68601.00 
+      1211.650  69991.00 
+      1211.700  71043.00 
+      1211.750  71602.00 
+      1211.800  71866.00 
+      1211.850  71871.00 
+      1211.900  72290.00 
+      1211.950  73141.00 
+      1212.000  72914.00 
+      1212.050  73229.00 
+      1212.100  72806.00 
+      1212.150  72787.00 
+      1212.200  71770.00 
+      1212.250  71180.00 
+      1212.300  69920.00 
+      1212.350  68036.00 
+      1212.400  66113.00 
+      1212.450  63010.00 
+      1212.500  59516.00 
+      1212.550  55733.00 
+      1212.600  52582.00 
+      1212.650  48288.00 
+      1212.700  44200.00 
+      1212.750  40800.00 
+      1212.800  37411.00 
+      1212.850  34399.00 
+      1212.900  31356.00 
+      1212.950  28815.00 
+      1213.000  26827.00 
+      1213.050  24765.00 
+      1213.100  23510.00 
+      1213.150  22310.00 
+      1213.200  21113.00 
+      1213.250  19919.00 
+      1213.300  19448.00 
+      1213.350  18664.00 
+      1213.400  18017.00 
+      1213.450  17785.00 
+      1213.500  17530.00 
+      1213.550  16887.00 
+      1213.600  16406.00 
+      1213.650  16191.00 
+      1213.700  16007.00 
+      1213.750  15767.00 
+      1213.800  15615.00 
+      1213.850  15528.00 
+      1213.900  15278.00 
+      1213.950  15054.00 
+      1214.000  15098.00 
+      1214.050  15038.00 
+      1214.100  15066.00 
+      1214.150  14767.00 
+      1214.200  14840.00 
+      1214.250  14768.00 
+      1214.300  14572.00 
+      1214.350  14457.00 
+      1214.400  14429.00 
+      1214.450  14326.00 
+      1214.500  14615.00 
+      1214.550  14556.00 
+      1214.600  14407.00 

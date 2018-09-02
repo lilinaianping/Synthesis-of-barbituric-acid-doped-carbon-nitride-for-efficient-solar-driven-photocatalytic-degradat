@@ -1,0 +1,41 @@
+                      Quantachrome QuadraWin - Data Acquisition and Reduction
+                                         for QuadraSorb SI
+                      ?2000-12, Quantachrome Instruments. All rights reserved.
+                                            version 5.11
+
+Analysis                                          Report
+Operator:      operator       Date:11/4/2016      Operator: operator            Date:2016/11/06
+Sample ID:     1                   Filename:      1.QPS
+Sample Desc:                       Comment:        
+Sample weight: 0.1031 g
+Analysis Time: 297.6 min           End of run:    11/4/2016 12:55:53  Instrument:    QuadraSorb Station 2
+Void Vol.:     He Mode.Cell: 9mm large bulbRun modeStandard           Instrument version:6.00
+Thermal delay: 180 sec             He evac time:  1 min
+Outgas Time:   3.0 hrs             OutgasTemp:    300.0 C
+Analysis gas:  Nitrogen            Bath Temp:     77.3 K
+Press. Tolerance:0.050/0.050 (ads/des)Equil time: 30/30 sec (ads/des) Equil timeout: 300/300 sec (ads/des)
+                                     Data Reduction Parameters
+Adsorbate      Nitrogen                 Temperature    77.350K
+ 
+               Molec. Wt.: 28.013       Cross Section: 16.200  Å~2    Liquid Density: 0.808  g/cc
+
+            Relative                      Volume @ STP                1 / [ W((Po/P) - 1) ]
+            Pressure                                                             
+              P/Po                            cc/g                               
+
+               5.01929e-02                     2.6081                          1.6212e+01
+               9.98743e-02                     2.8399                          3.1260e+01
+               1.49796e-01                     2.9944                          4.7078e+01
+               2.00043e-01                     3.1298                          6.3927e+01
+               2.49454e-01                     3.2067                          8.2929e+01
+               2.99082e-01                     3.4673                          9.8465e+01
+
+                                                BET summary
+                                           Slope =       334.459
+                                       Intercept =        -1.798e+00
+                      Correlation coefficient, r =         0.999358
+                                       C constant=      -184.999
+ 
+                                    Surface Area =        10.469 m²/g
+ 
+ 

@@ -1,0 +1,64 @@
+                      Quantachrome QuadraWin - Data Acquisition and Reduction
+                                         for QuadraSorb SI
+                      ?2000-12, Quantachrome Instruments. All rights reserved.
+                                            version 5.11
+
+Analysis                                          Report
+Operator:      operator       Date:11/5/2016      Operator: operator            Date:2016/11/06
+Sample ID:     3                   Filename:      6.QPS
+Sample Desc:                       Comment:        
+Sample weight: 0.0935 g
+Analysis Time: 278.3 min           End of run:    11/5/2016 0:59:18   Instrument:    QuadraSorb Station 4
+Void Vol.:     He Mode.Cell: 9mm large bulbRun modeStandard           Instrument version:6.00
+Thermal delay: 180 sec             He evac time:  1 min
+Outgas Time:   3.0 hrs             OutgasTemp:    300.0 C
+Analysis gas:  Nitrogen            Bath Temp:     77.3 K
+Press. Tolerance:0.050/0.050 (ads/des)Equil time: 30/30 sec (ads/des) Equil timeout: 300/300 sec (ads/des)
+                                     Data Reduction Parameters
+               Thermal Transpiration: onEff. mol. diameter (D): 3.54 ÅEff. cell stem diam. (d): 4.0000 mm
+ 
+t-Method       Calc. method: de Boer
+BJH/DH method  Moving pt. avg.: off
+HK method      Tabulated data interval: 1
+SF method      Tabulated data interval: 1
+DFT method     Calc. Model: N2 at 77 K on carbon (slit pore, NLDFT equilibrium model)
+               Rel. press. range: 0.0000 - 1.0000                     Moving pt. avg: off
+Adsorbate      Nitrogen                 Temperature    77.350K
+               Molec. Wt.: 28.013       Cross Section: 16.200  Å~2    Liquid Density: 0.808  g/cc
+Adsorbent      Carbon
+
+
+                                         Surface Area Data
+ 
+MultiPoint BET                                                            1.625e+01 m²/g
+BJH method cumulative adsorption surface area                             1.959e+01 m²/g
+BJH method cumulative desorption surface area                             2.497e+01 m²/g
+DH method cumulative adsorption surface area                              2.092e+01 m²/g
+DH method cumulative desorption surface area                              2.517e+01 m²/g
+DFT cumulative surface area                                               1.453e+01 m²/g
+ 
+                                          Pore Volume Data
+ 
+Total pore volume for pores with Radius
+less than 937.42 Å at P/Po = 0.989664                                     1.504e-01 cc/g
+BJH method cumulative adsorption pore volume                              1.505e-01 cc/g
+BJH method cumulative desorption pore volume                              1.527e-01 cc/g
+DH method cumulative adsorption pore volume                               1.463e-01 cc/g
+DH method cumulative desorption pore volume                               1.483e-01 cc/g
+HK method micropore volume                                                6.818e-03 cc/g
+SF method micropore volume                                                5.379e-03 cc/g
+DFT method cumulative pore volume                                         6.252e-02 cc/g
+ 
+                                           Pore Size Data
+ 
+Average pore Radius                                                       1.851e+02 Å
+BJH method adsorption pore Radius (Mode Dv(r))                            4.450e+00 Å
+BJH method desorption pore Radius (Mode Dv(r))                            1.913e+01 Å
+DH method adsorption pore Radius (Mode Dv(r))                             4.450e+00 Å
+DH method desorption pore Radius (Mode Dv(r))                             1.913e+01 Å
+HK method pore Radius (Mode)                                              1.838e+00 Å
+SF method pore Radius (Mode)                                              2.261e+00 Å
+DFT pore Radius (Mode)                                                    7.655e+01 Å
+ 
+ 
+ 
